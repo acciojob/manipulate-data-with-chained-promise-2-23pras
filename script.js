@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const output = document.getElementById('output');
 
-const intialPromise = new Promise((res,rej)={
+const intialPromise = new Promise((res,rej)=>{
 	setTimeout(()=>{
 		res([1,2,3,4])
 	},3000)
